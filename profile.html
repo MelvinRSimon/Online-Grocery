@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Online Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">Grocery Store</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html" class="active">My Profile</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>My Profile</h2>
+        <form id="profileForm">
+            <label for="profileName">Name:</label>
+            <input type="text" id="profileName" required>
+
+            <label for="profileEmail">Email:</label>
+            <input type="email" id="profileEmail" required>
+
+            <label for="profileAddress">Address:</label>
+            <textarea id="profileAddress" required></textarea>
+
+            <label for="profileContact">Contact:</label>
+            <input type="text" id="profileContact" required>
+
+            <label for="profilePassword">New Password:</label>
+            <input type="password" id="profilePassword" minlength="5">
+
+            <button type="submit">Save Changes</button>
+        </form>
+        <p id="profileMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

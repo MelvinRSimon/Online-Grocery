@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Online Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">Grocery Store</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="profile.html">My Profile</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to Online Grocery Store</h1>
+    </header>
+
+    <div class="products">
+        <!-- Product Listing -->
+        <div class="product">
+            <h3>Apples</h3>
+            <p>Price: ₹200/kg</p>
+            <button onclick="addToCart('Apples', 200)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Bread</h3>
+            <p>Price: ₹40/pack</p>
+            <button onclick="addToCart('Bread', 40)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Milk</h3>
+            <p>Price: ₹30/L</p>
+            <button onclick="addToCart('Milk', 30)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Eggs</h3>
+            <p>Price: ₹80/dozen</p>
+            <button onclick="addToCart('Eggs', 80)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Fresh Meat</h3>
+            <p>Price: ₹300/kg</p>
+            <button onclick="addToCart('Fresh Meat', 300)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Bananas</h3>
+            <p>Price: ₹80/kg</p>
+            <button onclick="addToCart('Bananas', 80)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Rice</h3>
+            <p>Price: ₹60/kg</p>
+            <button onclick="addToCart('Rice', 60)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Tomatoes</h3>
+            <p>Price: ₹50/kg</p>
+            <button onclick="addToCart('Tomatoes', 50)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Olive Oil</h3>
+            <p>Price: ₹500/L</p>
+            <button onclick="addToCart('Olive Oil', 500)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Onions</h3>
+            <p>Price: ₹40/kg</p>
+            <button onclick="addToCart('Onions', 40)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Soft Drinks</h3>
+            <p>Price: ₹60/L</p>
+            <button onclick="addToCart('Soft Drinks', 60)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Candies</h3>
+            <p>Price: ₹15/pack</p>
+            <button onclick="addToCart('Chocolates', 15)">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

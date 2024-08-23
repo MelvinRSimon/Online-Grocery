@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Online Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">Grocery Store</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">My Profile</a></li>
+            <li><a href="cart.html" class="active">Cart</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <!-- Cart Items will be dynamically inserted here -->
+        </div>
+        <div class="cart-summary">
+            <h3>Summary</h3>
+            <p>Total Items: <span id="totalItems">0</span></p>
+            <p>Total Cost: ₹<span id="totalCost">0.00</span></p>
+            <button id="checkoutButton">Checkout</button>
+        </div>
+        <p id="checkoutMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
